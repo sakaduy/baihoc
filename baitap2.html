@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<style>
+    th{
+        border: 1px solid #fff;
+        padding: 6px 10px;
+        color: #fff;
+        
+    }
+    td{
+        border: 1px solid #fff;
+        padding: 6px 10px;
+        color: #fff;
+    }
+    table{
+        border-spacing: 0;
+        border-collapse: collapse ;
+        
+    }
+    .text-center{
+        text-align: center;
+    }
+    .bg-green{
+        background-color: green;
+    }
+
+</style>
+    </head>
+    <body>
+        <table class="bg-green">
+            <tbody>
+               <tr>
+                <th colspan="4">TABLE1: Ô này dài hết nha!</th>
+              </tr>
+              <tr>
+                <th colspan="1" rowspan=" 2"> Ô này chiếm 2 dòng</th>
+                <td colspan="3">ô này chứa data header group</td>
+                
+              </tr>
+              <tr>
+                <td>header 1</td>
+                <td>header 2</td>
+                <td>header 3</td>
+
+              </tr>
+              <tr>
+                <td>Data để map</td>
+                <td>data để map</td>
+                <td>data để map</td>
+                <td>data để map</td>
+              </tr>
+              <tr>
+                <td>Sum data</td>
+                <td colspan="3" class="text-center">Cột Sum;N/A</td>
+              </tr>
+
+
+            </tbody>
+        </table>
+    </body>
+</html>
